@@ -1,0 +1,22 @@
+body {
+    background-color: #42b983;
+    color: #2c3e50;
+    padding-bottom: 80px;
+    padding-left: 20%;
+}
+
+a:link {
+    text-decoration: none;
+    color: #42b983;
+  }
+a {
+    color: white;
+}
+
+button {
+    padding: 25px;
+    color: #42b983;
+    border-radius: 5%;
+    border-block-start-style: hidden;
+    border-block-end-style: hidden;
+}

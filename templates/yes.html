@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>darkflask</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but darkflask doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <h2><u>Games! Games! Games!</u></h2>
+    <p><u>{{ plus_stuff[0]["Name"] }}</u></p>
+    <ul>
+        <li><u>Price:</u> {{plus_stuff[0]["Price"]}}</li>
+        <li><u>Genres:</u> {{plus_stuff[0]["Genres"]}}</li>
+        <li><u>Developer:</u> {{plus_stuff[0]["Developer"]}}</li>
+        <li><u>Current Version Release Date:</u> {{plus_stuff[0]["Current_Version_Release_Date"]}}</li>
+        <li><u>Original Release Date:</u> {{plus_stuff[0]["Original_Release_Date"]}}</li>
+        <li><u>Age Rating:</u> {{plus_stuff[0]["Age_Rating"]}}</li>
+        <li><u>Languages:</u> {{plus_stuff[0]["Languages"]}}</li>
+        <li><u>Description:</u> {{plus_stuff[0]["Description"]}}</li>
+    </ul>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <p><u>{{ plus_stuff[1]["Name"] }}</u></p>
+    <ul>
+        <li><u>Price:</u> {{plus_stuff[1]["Price"]}}</li>
+        <li><u>Genres:</u> {{plus_stuff[1]["Genres"]}}</li>
+        <li><u>Developer:</u> {{plus_stuff[1]["Developer"]}}</li>
+        <li><u>Current Version Release Date:</u> {{plus_stuff[1]["Current_Version_Release_Date"]}}</li>
+        <li><u>Original Release Date:</u> {{plus_stuff[1]["Original_Release_Date"]}}</li>
+        <li><u>Age Rating:</u> {{plus_stuff[1]["Age_Rating"]}}</li>
+        <li><u>Languages:</u> {{plus_stuff[1]["Languages"]}}</li>
+        <li><u>Description:</u> {{plus_stuff[1]["Description"]}}</li>
+    </ul>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <p><u>{{ plus_stuff[2]["Name"] }}</u></p>
+    <ul>
+        <li><u>Price:</u> {{plus_stuff[2]["Price"]}}</li>
+        <li><u>Genres:</u> {{plus_stuff[2]["Genres"]}}</li>
+        <li><u>Developer:</u> {{plus_stuff[2]["Developer"]}}</li>
+        <li><u>Current Version Release Date:</u> {{plus_stuff[2]["Current_Version_Release_Date"]}}</uli>
+        <li><u>Original Release Date:</u> {{plus_stuff[2]["Original_Release_Date"]}}</li>
+        <li><u>Age Rating:</u> {{plus_stuff[2]["Age_Rating"]}}</li>
+        <li><u>Languages:</u> {{plus_stuff[2]["Languages"]}}</li>
+        <li><u>Description:</u> {{plus_stuff[2]["Description"]}}</li>
+    </ul>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <p><u>{{ plus_stuff[3]["Name"] }}</u></p>
+    <ul>
+        <li><u>Price:</u> {{plus_stuff[3]["Price"]}}</li>
+        <li><u>Genres:</u> {{plus_stuff[3]["Genres"]}}</li>
+        <li><u>Developer:</u> {{plus_stuff[3]["Developer"]}}</li>
+        <li><u>Current Version Release Date:</u> {{plus_stuff[3]["Current_Version_Release_Date"]}}</li>
+        <li><u>Original Release Date:</u> {{plus_stuff[3]["Original_Release_Date"]}}</li>
+        <li><u>Age Rating:</u> {{plus_stuff[3]["Age_Rating"]}}</li>
+        <li><u>Languages:</u> {{plus_stuff[3]["Languages"]}}</li>
+        <li><u>Description:</u> {{plus_stuff[3]["Description"]}}</li>
+    </ul>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <p><u>{{ plus_stuff[4]["Name"] }}</u></p>
+    <ul>
+        <li><u>Price:</u> {{plus_stuff[4]["Price"]}}</li>
+        <li><u>Genres:</u> {{plus_stuff[4]["Genres"]}}</li>
+        <li><u>Developer:</u> {{plus_stuff[4]["Developer"]}}</li>
+        <li><u>Current Version Release Date:</u> {{plus_stuff[4]["Current_Version_Release_Date"]}}</li>
+        <li><u>Original Release Date:</u> {{plus_stuff[4]["Original_Release_Date"]}}</li>
+        <li><u>Age Rating:</u> {{plus_stuff[4]["Age_Rating"]}}</li>
+        <li><u>Languages:</u> {{plus_stuff[4]["Languages"]}}</li>
+        <li><u>Description:</u> {{plus_stuff[4]["Description"]}}</li>
+    </ul>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <p><u>{{ plus_stuff[5]["Name"] }}</u></p>
+    <ul>
+        <li><u>Price:</u> {{plus_stuff[5]["Price"]}}</li>
+        <li><u>Genres:</u> {{plus_stuff[5]["Genres"]}}</li>
+        <li><u>Developer:</u> {{plus_stuff[5]["Developer"]}}</li>
+        <li><u>Current Version Release Date:</u> {{plus_stuff[5]["Current_Version_Release_Date"]}}</li>
+        <li><u>Original Release Date:</u> {{plus_stuff[5]["Original_Release_Date"]}}</li>
+        <li><u>Age Rating:</u> {{plus_stuff[5]["Age_Rating"]}}</li>
+        <li><u>Languages:</u> {{plus_stuff[5]["Languages"]}}</li>
+        <li><u>Description:</u> {{plus_stuff[5]["Description"]}}</li>
+    </ul>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <p><u>{{ plus_stuff[6]["Name"] }}</u></p>
+    <ul>
+        <li><u>Price:</u> {{plus_stuff[6]["Price"]}}</li>
+        <li><u>Genres:</u> {{plus_stuff[6]["Genres"]}}</li>
+        <li><u>Developer:</u> {{plus_stuff[6]["Developer"]}}</li>
+        <li><u>Current Version Release Date:</u> {{plus_stuff[6]["Current_Version_Release_Date"]}}</li>
+        <li><u>Original Release Date:</u> {{plus_stuff[6]["Original_Release_Date"]}}</li>
+        <li><u>Age Rating:</u> {{plus_stuff[6]["Age_Rating"]}}</li>
+        <li><u>Languages:</u> {{plus_stuff[6]["Languages"]}}</li>
+        <li><u>Description:</u> {{plus_stuff[6]["Description"]}}</li>
+    </ul>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <p><u>{{ plus_stuff[7]["Name"] }}</u></p>
+    <ul>
+        <li><u>Price:</u> {{plus_stuff[7]["Price"]}}</li>
+        <li><u>Genres:</u> {{plus_stuff[7]["Genres"]}}</li>
+        <li><u>Developer:</u> {{plus_stuff[7]["Developer"]}}</li>
+        <li><u>Current Version Release Date:</u> {{plus_stuff[7]["Current_Version_Release_Date"]}}</li>
+        <li><u>Original Release Date:</u> {{plus_stuff[7]["Original_Release_Date"]}}</li>
+        <li><u>Age Rating:</u> {{plus_stuff[7]["Age_Rating"]}}</li>
+        <li><u>Languages:</u> {{plus_stuff[7]["Languages"]}}</li>
+        <li><u>Description:</u> {{plus_stuff[7]["Description"]}}</li>
+    </ul>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <p><u>{{ plus_stuff[8]["Name"] }}</u></p>
+    <ul>
+        <li><u>Price:</u> {{plus_stuff[8]["Price"]}}</li>
+        <li><u>Genres:</u> {{plus_stuff[8]["Genres"]}}</li>
+        <li><u>Developer:</u> {{plus_stuff[8]["Developer"]}}</li>
+        <li><u>Current Version Release Date:</u> {{plus_stuff[8]["Current_Version_Release_Date"]}}</li>
+        <li><u>Original Release Date:</u> {{plus_stuff[8]["Original_Release_Date"]}}</li>
+        <li><u>Age Rating:</u> {{plus_stuff[8]["Age_Rating"]}}</li>
+        <li><u>Languages:</u> {{plus_stuff[8]["Languages"]}}</li>
+        <li><u>Description:</u> {{plus_stuff[8]["Description"]}}</li>
+    </ul>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <p><u>{{ plus_stuff[9]["Name"] }}</u></p>
+    <ul>
+        <li><u>Price:</u> {{plus_stuff[9]["Price"]}}</li>
+        <li><u>Genres:</u> {{plus_stuff[9]["Genres"]}}</li>
+        <li><u>Developer:</u> {{plus_stuff[9]["Developer"]}}</li>
+        <li><u>Current Version Release Date:</u> {{plus_stuff[9]["Current_Version_Release_Date"]}}</li>
+        <li><u>Original Release Date:</u> {{plus_stuff[9]["Original_Release_Date"]}}</li>
+        <li><u>Age Rating:</u> {{plus_stuff[9]["Age_Rating"]}}</li>
+        <li><u>Languages:</u> {{plus_stuff[9]["Languages"]}}</li>
+        <li><u>Description:</u> {{plus_stuff[9]["Description"]}}</li>
+    </ul>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <p><u>{{ plus_stuff[10]["Name"] }}</u></p>
+    <ul>
+        <li><u>Price:</u> {{plus_stuff[10]["Price"]}}</li>
+        <li><u>Genres:</u> {{plus_stuff[10]["Genres"]}}</li>
+        <li><u>Developer:</u> {{plus_stuff[10]["Developer"]}}</li>
+        <li><u>Current Version Release Date:</u> {{plus_stuff[10]["Current_Version_Release_Date"]}}</li>
+        <li><u>Original Release Date:</u> {{plus_stuff[10]["Original_Release_Date"]}}</li>
+        <li><u>Age Rating:</u> {{plus_stuff[10]["Age_Rating"]}}</li>
+        <li><u>Languages:</u> {{plus_stuff[10]["Languages"]}}</li>
+        <li><u>Description:</u> {{plus_stuff[10]["Description"]}}</li>
+    </ul>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <p><u>{{ plus_stuff[11]["Name"] }}</u></p>
+    <ul>
+        <li><u>Price:</u> {{plus_stuff[11]["Price"]}}</li>
+        <li><u>Genres:</u> {{plus_stuff[11]["Genres"]}}</li>
+        <li><u>Developer:</u> {{plus_stuff[11]["Developer"]}}</li>
+        <li><u>Current Version Release Date:</u> {{plus_stuff[11]["Current_Version_Release_Date"]}}</li>
+        <li><u>Original Release Date:</u> {{plus_stuff[11]["Original_Release_Date"]}}</li>
+        <li><u>Age Rating:</u> {{plus_stuff[11]["Age_Rating"]}}</li>
+        <li><u>Languages:</u> {{plus_stuff[11]["Languages"]}}</li>
+        <li><u>Description:</u> {{plus_stuff[11]["Description"]}}</li>
+    </ul>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <p><u>{{ plus_stuff[12]["Name"] }}</u></p>
+    <ul>
+        <li><u>Price:</u> {{plus_stuff[12]["Price"]}}</li>
+        <li><u>Genres:</u> {{plus_stuff[12]["Genres"]}}</li>
+        <li><u>Developer:</u> {{plus_stuff[12]["Developer"]}}</li>
+        <li><u>Current Version Release Date:</u> {{plus_stuff[12]["Current_Version_Release_Date"]}}</li>
+        <li><u>Original Release Date:</u> {{plus_stuff[12]["Original_Release_Date"]}}</li>
+        <li><u>Age Rating:</u> {{plus_stuff[12]["Age_Rating"]}}</li>
+        <li><u>Languages:</u> {{plus_stuff[12]["Languages"]}}</li>
+        <li><u>Description:</u> {{plus_stuff[12]["Description"]}}</li>
+    </ul>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <p><u>{{ plus_stuff[13]["Name"] }}</u></p>
+    <ul>
+        <li><u>Price:</u> {{plus_stuff[13]["Price"]}}</li>
+        <li><u>Genres:</u> {{plus_stuff[13]["Genres"]}}</li>
+        <li><u>Developer:</u> {{plus_stuff[13]["Developer"]}}</li>
+        <li><u>Current Version Release Date:</u> {{plus_stuff[13]["Current_Version_Release_Date"]}}</li>
+        <li><u>Original Release Date:</u> {{plus_stuff[13]["Original_Release_Date"]}}</li>
+        <li><u>Age Rating:</u> {{plus_stuff[13]["Age_Rating"]}}</li>
+        <li><u>Languages:</u> {{plus_stuff[13]["Languages"]}}</li>
+        <li><u>Description:</u> {{plus_stuff[13]["Description"]}}</li>
+    </ul>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <p><u>{{ plus_stuff[14]["Name"] }}</u></p>
+    <ul>
+        <li><u>Price:</u> {{plus_stuff[14]["Price"]}}</li>
+        <li><u>Genres:</u> {{plus_stuff[14]["Genres"]}}</li>
+        <li><u>Developer:</u> {{plus_stuff[14]["Developer"]}}</li>
+        <li><u>Current Version Release Date:</u> {{plus_stuff[14]["Current_Version_Release_Date"]}}</li>
+        <li><u>Original Release Date:</u> {{plus_stuff[14]["Original_Release_Date"]}}</li>
+        <li><u>Age Rating:</u> {{plus_stuff[14]["Age_Rating"]}}</li>
+        <li><u>Languages:</u> {{plus_stuff[14]["Languages"]}}</li>
+        <li><u>Description:</u> {{plus_stuff[14]["Description"]}}</li>
+    </ul>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <button id="jsonBtn"><a href="/metadata/">See JSON</a></button>
+    <button id="graphBtn"><a href="/">Go home</a></button>
+    <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+                <i class="fa fa-cogs" style="font-size:36px"></i>
+            </div>
+          </div>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  </body>
+</html>
